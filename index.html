@@ -10,6 +10,7 @@
     h1{
     color: black;
     font-size: 70px;
+    
 
 }
 .section3 img
@@ -17,12 +18,14 @@
     float: right;
     height:700px;
     width: 700px;
+    margin-right: 70px;
 
 }
 nav li {
     display: inline;
     margin: 0 15px;
     margin-top :0;
+    text-align: center;
 }
 body{
   margin: auto;
@@ -35,17 +38,30 @@ body{
  position: relative;
  left: 10%;
 }
-.section3{
+.section1{
   
-    float:right;
-   
+    margin-left: 50;
+   margin-right: 70px;
     
   }
   .butts{
     float: right;
+    margin-top: -30px;
   }
   #max{
     margin-top: 40%;
+  }
+  .button{
+    background-color: black;
+    color:white ;
+    border-radius: 10px;
+    height: 50px;
+    width: 100;
+    
+  }
+  .login{
+    border: none;
+    background-color: white;
   }
   </style>
   <meta charset="UTF-8">
@@ -68,9 +84,12 @@ body{
 
   <nav>
     
+    <div class="snap"> 
+      <h3>snap</h3> 
+    </div>
     <div>
     <ul>
-      <li>snap</li>
+      
       <li>Features</li>
       <li>Company</li>
       <li>Careers</li>
@@ -78,10 +97,9 @@ body{
     </ul>
   </div>
   <div class = "butts">
-    <ul>
-      <li>login</li>
-      <li>Register</li>
-    </ul>
+    <button class="login">Login</button>
+    <button class="register">Register</button>
+
   </div>
   
 
@@ -95,8 +113,8 @@ body{
     create team rituals, and<br> watch productivity soar.</p>
 </div>
 <br><br><br><br>
-  <div>
-    <button type="button">Learn more</button>
+  <div id="wanjeru">
+    <button class="button">Learn more</button>
   </div>
 <div id="max">
   <img src="./images/client-audiophile.svg" alt="">
